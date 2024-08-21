@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(93, 153, 51, 0.598);
+}
+
+.signupform {
+    width: 30vw;
+    height: max-content;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signupform h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.signupform label {
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #666;
+    cursor: pointer;
+}
+
+.signupform input[type="text"],
+.signupform input[type="email"],
+.signupform input[type="password"],
+.signupform input[type="tel"],
+.signupform input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signupform input[type="text"]:focus,
+.signupform input[type="email"]:focus,
+.signupform input[type="password"]:focus,
+.signupform input[type="tel"]:focus,
+.signupform input[type="password"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signupform select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+}
+
+.signupform select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signupform button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signupform button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.errormessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
